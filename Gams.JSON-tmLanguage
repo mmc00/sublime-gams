@@ -8,9 +8,6 @@
                     "include": "#blockcomment"
                 },
                 {
-                    "include": "#blockcommentcurly"
-                },
-                {
                     "include": "#blockcommentc"
                 },
                 {
@@ -46,12 +43,6 @@
       "name": "comment.slashstar.gms",
       "begin": "/\\*",
       "end": "\\*/",
-      "contentName": "comment.block.documentation.gms"      
-    },
-    "blockcommentcurly": {
-      "name": "comment.curly.gms",
-      "begin": "{",
-      "end": "}",
       "contentName": "comment.block.documentation.gms"      
     },
     "linecomment": {
